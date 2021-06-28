@@ -1,34 +1,45 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">
+  <img src="public/dolla.gif" width="40%"/> 
+</h1>
+<h1 align="center" widht="50%">
+  <img alt="React" width="7%" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" />
+  <img alt="TypeScript" width="7%" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png" />
+  <img alt="Nexjs" width="7%" src="https://assets.vercel.com/image/upload/v1607554385/repositories/next-js/next-logo.png" />
+  <img alt="TypeScript" width="7%" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/styled-components/styled-components.png" />
+</h1>
 
-## Getting Started
+This project was developed following a [youtube vídeo](https://www.youtube.com/watch?v=Nl54MJDR2p8), it is a website developed with React that has smooth scroll using a React Lib. This project has some new implementations made by myself such as the use of NextJS and SSG.
 
-First, run the development server:
+## ⚡️ The Project
+  The Podcastr project is a platform where people can listen to the FalaDev podcast. 
+  
+## 🎯 Features
+ - Smooth scroll
+ - Static Site Generation
+  
+## 🖥️ Used Tecnologies
+ - [ReactJs](https://reactjs.org/)
+ - [NextJs](https://nextjs.org/)
+ - [Styled-Components](https://styled-components.com/)
+ - [React-Scroll](https://github.com/fisshy/react-scroll)
+
+## ⚙️ Dependencies
+ - [Yarn](https://yarnpkg.com/)
+ 
+## 🚀️ Getting Started
+
+1. Clone this repository: 
 
 ```bash
-npm run dev
-# or
+git clone https://github.com/avnerjose/reactjs-nextjs-smooth-scroll.git && cd reactjs-nextjs-smooth-scroll
+```
+2. Install all dependencies
+
+```bash
+yarn
+```
+3. Start the app
+```bash
 yarn dev
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+4. Open [localhost:3000](http://localhost:3000) to see the app working
