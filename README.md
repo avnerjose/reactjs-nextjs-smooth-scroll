@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="public/dolla.gif" width="40%"/> 
+  <img src="public/dolla.gif"/> 
 </h1>
 <h1 align="center" widht="50%">
   <img alt="React" width="7%" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" />
