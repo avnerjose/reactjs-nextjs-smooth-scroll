@@ -41,6 +41,10 @@ export function HeroSection() {
             dark
             onMouseEnter={toggleHover}
             onMouseLeave={toggleHover}
+            smooth={true}
+            spy={true}
+            offset={-80}
+            duration={500}
           >
             Get started {hover ? <ArrowForward /> : <ArrowRight />}
           </Button>
